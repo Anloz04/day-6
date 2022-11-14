@@ -1,3 +1,5 @@
+//Write a “person” class to hold all the details.
+
 class Person{
     constructor(Name, Deg, Profession, Work, Location, Hobby, Email){
 
@@ -41,7 +43,7 @@ class Person{
 }
 
 
-const person1 = new Person("Lokesh", "Engineering.","Free Lancer", "App Developer", "Chennai", "Reading books", "Lokesh41fsd@gmail.com");
+const person1 = new Person("Lokesh", "Engineering.","Free Lancer", "App Developer & Web Designing", "Chennai", "Reading books", "Lokesh41fsd@gmail.com");
 
 
 person1.getName();
